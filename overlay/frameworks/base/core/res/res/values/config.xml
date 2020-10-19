@@ -481,4 +481,14 @@
 
     <!-- True if the firmware supports Wi-Fi link probing -->
     <bool name="config_wifi_link_probing_supported">true</bool>
+
+    <!-- Show enabled lte option for lte device -->
+    <bool name="config_enabled_lte" translatable="false">true</bool>
+
+    <!-- Enable LTE capability support-->
+    <bool name="config_LTE_capability">true</bool>
+
+    <!-- Enable dual LTE capability support-->
+    <bool name="config_dual_LTE_capability">true</bool>
+
 </resources>
