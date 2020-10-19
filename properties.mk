@@ -97,6 +97,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.bluetooth.soc=cherokee \
     ro.bluetooth.a4wp=false
 
+# Blur
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.supports_background_blur=1
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.expose.aux=1 \
