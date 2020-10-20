@@ -22,7 +22,7 @@ LOCAL_SRC_FILES += \
     location_api/MeasurementAPIClient.cpp \
     location_api/GeofenceAPIClient.cpp \
     location_api/BatchingAPIClient.cpp \
-    location_api/LocationUtil.cpp \
+    location_api/LocationUtil.cpp
 
 ifeq ($(GNSS_HIDL_LEGACY_MEASURMENTS),true)
 LOCAL_CFLAGS += \
@@ -43,8 +43,6 @@ LOCAL_HEADER_LIBRARIES := \
 LOCAL_SHARED_LIBRARIES := \
     liblog \
     libhidlbase \
-    libhidltransport \
-    libhwbinder \
     libcutils \
     libutils \
     android.hardware.gnss@1.0 \
@@ -61,7 +59,7 @@ LOCAL_SHARED_LIBRARIES += \
     libloc_core \
     libgps.utils \
     libdl \
-    liblocation_api \
+    liblocation_api
 
 LOCAL_CFLAGS += $(GNSS_CFLAGS)
 LOCAL_STATIC_LIBRARIES := liblocbatterylistener
@@ -91,15 +89,13 @@ LOCAL_SHARED_LIBRARIES := \
     libbase \
     libutils \
     libgps.utils \
-    libqti_vndfwk_detect \
+    libqti_vndfwk_detect
 
 LOCAL_SHARED_LIBRARIES += \
-    libhwbinder \
     libhidlbase \
-    libhidltransport \
     android.hardware.gnss@1.0 \
     android.hardware.gnss@1.1 \
-    android.hardware.gnss@2.0 \
+    android.hardware.gnss@2.0
 
 LOCAL_CFLAGS += $(GNSS_CFLAGS)
 
