@@ -194,6 +194,7 @@ PRODUCT_PACKAGES += \
     init.qcom.sensors.sh \
     init.qcom.sh \
     init.qti.qseecomd.sh \
+    init.safailnet.rc \
     ueventd.qcom.rc \
     wlan_carrier_bin.sh
 
